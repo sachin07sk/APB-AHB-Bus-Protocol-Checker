@@ -211,8 +211,8 @@ apb_ahb_checker/
 │   └── ahb_checker.sv        AHB procedural checker
 │
 └── sim/
-    ├── protocol_tb.sv        Top — APB + AHB running simultaneously
-    └── run.do                QuestaSim compile + simulate script
+    └── protocol_tb.sv        Top — APB + AHB running simultaneously
+
 ```
 
 ---
