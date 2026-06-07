@@ -247,15 +247,6 @@ apb_ahb_checker/
 =========================================
 ```
 
----
-
-## How to Simulate
-
-```tcl
-# 1. Open QuestaSim
-# 2. In transcript window:
-
-```
 
 **Expected output:**
 - All APB and AHB modules compile with 0 errors
@@ -280,18 +271,6 @@ APB difference from AHB:
   APB:  no pipelining, PSEL+PENABLE handshake
   AHB:  pipelined address/data, HTRANS state machine,
         burst support (NONSEQ/SEQ), HREADY wait states
-```
-
----
-
-## Interview Points
-
-- Wrote **33 total SVA statements** (13 APB + 12 AHB + 8 cover)
-- Injected **6 deliberate protocol violations** to verify checker fires
-- Implemented **pipelined AHB monitor** that correctly tracks address pipeline
-- Both protocols verified **simultaneously** in single simulation
-- All SVA assertions use `disable iff` to suppress false violations during reset
-
 ---
 
 *Saravana Kumar T J A — Design & Verification Engineer*
