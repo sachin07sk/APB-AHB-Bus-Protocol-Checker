@@ -255,8 +255,6 @@ apb_ahb_checker/
 # 1. Open QuestaSim
 # 2. In transcript window:
 
-cd C:/VLSI_Projects/apb_ahb_checker/sim
-do run.do
 ```
 
 **Expected output:**
